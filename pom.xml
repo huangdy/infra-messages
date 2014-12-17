@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.saic.uicds.core.infrastructure</groupId>
+        <artifactId>com.saic.uicds.core.infrastructure</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>com.saic.uicds.core.infrastructure.messages</artifactId>
+    <packaging>jar</packaging>
+    <name>com.saic.uicds.core.infrastructure.messages</name>
+    <version>${infrastructure.version}</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>${pom.groupId}</groupId>
+            <artifactId>com.saic.uicds.core.infrastructure.xmlbeans-infrastructure</artifactId>
+            <version>${xmlbeans-infrastructure.version}</version>
+        </dependency>
+    </dependencies>
+    
+</project>
