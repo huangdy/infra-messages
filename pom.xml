@@ -3,19 +3,21 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.saic.uicds.core.infrastructure</groupId>
-        <artifactId>com.saic.uicds.core.infrastructure</artifactId>
+        <groupId>com.leidos.xchangecore.core</groupId>
+        <artifactId>infrastructure</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>com.saic.uicds.core.infrastructure.messages</artifactId>
+
+    <groupId>com.leidos.xchangecore.core.infrastructure</groupId>
+    <artifactId>messages</artifactId>
     <packaging>jar</packaging>
-    <name>com.saic.uicds.core.infrastructure.messages</name>
+    <name>Messages for infrastructure</name>
     <version>${infrastructure.version}</version>
 
     <dependencies>
         <dependency>
-            <groupId>${pom.groupId}</groupId>
-            <artifactId>com.saic.uicds.core.infrastructure.xmlbeans-infrastructure</artifactId>
+	    <groupId>com.leidos.xchangecore.core.infrastructure</groupId>
+            <artifactId>xmlbeans-infrastructure</artifactId>
             <version>${xmlbeans-infrastructure.version}</version>
         </dependency>
     </dependencies>
