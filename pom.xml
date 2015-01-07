@@ -19,12 +19,8 @@
 
     <repositories>
         <repository>
-            <id>xchangecore-mvn-repo</id>
-            <url>https://github.com/huangdy/xchangecore-mvn-repo/tree/master/releases</url>
-        </repository>
-        <repository>
-            <id>xmlbeans-infrastructure</id>
-            <url>https://github.com/huangdy/xmlbeans-infrastructure/mvn-repo</url>
+            <id>xmlbeans-infrastructure-mvn-repo</id>
+            <url>https://github.com/huangdy/xmlbeans-infrastructure/blob/mvn-repo</url>
         </repository>
     </repositories>
 
@@ -43,11 +39,5 @@
             
         </plugins>
     </build>
-
-    <properties>
-    <!-- github server corresponds to entry in ~/.m2/settings.xml
-        <github.global.server>github</github.global.server>
-     -->
-    </properties>
 
 </project>
