@@ -19,8 +19,8 @@
 
     <repositories>
         <repository>
-            <id>xmlbeans-infrastructure</id>
-            <url>https://github.com/huangdy/xmlbeans-infrastructure/raw/mvn-repo</url>
+            <id>xchangecore-mvn-repo</id>
+            <url>https://github.com/huangdy/xchangecore-mvn-repo/raw/master</url>
         </repository>
     </repositories>
 
