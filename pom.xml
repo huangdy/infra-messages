@@ -11,8 +11,8 @@
 
     <artifactId>infra-messages</artifactId>
     <packaging>jar</packaging>
+    <version>${infra-messages.version}</version>
     <name>xChangeCore's Infrastructure's messages</name>
-    <version>${infrastructure.version}</version>
 
     <dependencies>
         <dependency>
